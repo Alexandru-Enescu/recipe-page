@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.young-serif {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+  }
+
+.outfit-400 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+.outfit-600 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+.outfit-700 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
