@@ -594,6 +594,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -604,6 +608,46 @@ video {
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.table-auto {
+  table-layout: auto;
+}
+
+.table-fixed {
+  table-layout: fixed;
 }
 
 .border-collapse {
@@ -648,6 +692,14 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
 }
 
 .rounded-xl {
@@ -756,6 +808,16 @@ video {
   line-height: 2rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -825,12 +887,22 @@ video {
   font-weight: 700;
 }
 
+.marker\:text-sm *::marker {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .marker\:font-bold *::marker {
   font-weight: 700;
 }
 
 .marker\:text-\[\#854632\] *::marker {
   color: rgb(133 70 50 );
+}
+
+.marker\:text-sm::marker {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .marker\:font-bold::marker {
@@ -849,6 +921,11 @@ video {
   .sm\:my-36 {
     margin-top: 9rem;
     margin-bottom: 9rem;
+  }
+
+  .sm\:my-32 {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
   }
 
   .sm\:w-1\/2 {
